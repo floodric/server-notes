@@ -1,0 +1,28 @@
+# first update general packages
+apt-get update 
+
+# mosh 
+# mosh.mit.edu
+apt-get install python-software-properties
+add-apt-repository ppa:keithw/most
+apt-get update 
+apt-get install mosh
+
+# zsh
+# zsh.org
+apt-get install zsh
+
+# screen
+# super useful for multiplexing terminals
+apt-get install screen
+
+# locate
+# for searching for files easier
+apt-get install locate
+
+# vim
+apt-get install vim
+
+# postgres
+# should probably install it at some point, but meh, attack surface
+apt-get install postgresql postgresql-contrib
